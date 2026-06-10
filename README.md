@@ -7,16 +7,16 @@ This project presents a Smart Adaptive Traffic Control System that combines Tiny
 <img width="1350" height="892" alt="image" src="https://github.com/user-attachments/assets/a400a3b5-db64-4c32-8192-5eddff6433f0" />
 
 ## Working
+```text
 ESP32-CAM Capture
-↓
+        ↓
 Image Preprocessing
-↓
+        ↓
 TinyML Inference
-↓
+        ↓
 Traffic Density Classification
-↓
-Adaptive Signal Timing 
-
+        ↓
+Adaptive Signal Timing
 ### Future Enhancement: Drone-Based Surveillance
 As a future enhancement, the ESP32-CAM can be mounted on a drone to provide aerial traffic monitoring. In this setup, the classified traffic density can be transmitted wirelessly to an ESP32 DevKit located at the traffic junction. The ESP32 DevKit can then control traffic signals based on real-time traffic conditions captured from the drone, enabling wider coverage and smart city deployment.
 
