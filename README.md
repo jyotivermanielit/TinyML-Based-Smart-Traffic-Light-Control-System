@@ -17,8 +17,11 @@ TinyML Inference
 Traffic Density Classification
         ↓
 Adaptive Signal Timing
+```
+
 ### Future Enhancement: Drone-Based Surveillance
 As a future enhancement, the ESP32-CAM can be mounted on a drone to provide aerial traffic monitoring. In this setup, the classified traffic density can be transmitted wirelessly to an ESP32 DevKit located at the traffic junction. The ESP32 DevKit can then control traffic signals based on real-time traffic conditions captured from the drone, enabling wider coverage and smart city deployment.
+
 
 ## Hardware Used
 - ESP32-CAM
@@ -27,9 +30,11 @@ As a future enhancement, the ESP32-CAM can be mounted on a drone to provide aeri
 - Traffic Signal LEDs
 - Power Supply Module
 
+
 ## Software Used
 - Edge Impulse
 - Arduino IDE
+
 
 ## Features
 - Real-time traffic density monitoring
@@ -39,11 +44,13 @@ As a future enhancement, the ESP32-CAM can be mounted on a drone to provide aeri
 - Adaptive traffic signal control
 - Low-cost IoT implementation
 
+
 ## Results
 - Real-time traffic density classification
 - Dynamic green signal timing
 - Improved traffic flow management
 - Reduced waiting time at intersections
+
 
 ## Future Scope
 - Multi-junction traffic monitoring using multiple drones
@@ -53,6 +60,7 @@ As a future enhancement, the ESP32-CAM can be mounted on a drone to provide aeri
 - AI-based traffic prediction and route optimization
 - Cloud dashboard for real-time traffic analytics
 - Automatic drone patrol scheduling for large urban areas
+
 
 ## Applications
 - Smart Cities
