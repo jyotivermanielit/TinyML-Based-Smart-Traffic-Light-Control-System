@@ -7,8 +7,8 @@ This project presents a Smart Adaptive Traffic Control System that combines Tiny
 <img width="1350" height="892" alt="image" src="https://github.com/user-attachments/assets/a400a3b5-db64-4c32-8192-5eddff6433f0" />
 
 ## Working
-The ESP32-CAM captures images of the traffic scene.
-The captured image is resized and stored in the ESP32-CAM buffer memory.
+-> The ESP32-CAM captures images of the traffic scene.
+->The captured image is resized and stored in the ESP32-CAM buffer memory.
 The TinyML model deployed on the ESP32-CAM processes the image locally.
 The model classifies the traffic density as Low, Medium, or High.
 Based on the predicted traffic density, the system determines the appropriate green signal duration.
